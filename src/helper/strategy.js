@@ -1,4 +1,4 @@
-import mostrarProps from "./helper";
+const mostrarProps = require("./helper");
 
 const rand_imgs_guigui = [
   './src/assets/images/guigui/guigui1.jpg',
@@ -23,8 +23,11 @@ const helper = {
   "!gostosa": ('Olha a gostosa', { files: ['./src/assets/images/gostosa.jpg'] }),
 };
 
-export const Helper = mostrarProps(helper, "");
+const Helper = mostrarProps(helper, "")
 
 const strategy = (profile) => helper[profile];
 
-export default strategy;
+module.exports = {
+  Helper,
+  strategy
+};
