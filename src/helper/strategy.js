@@ -6,7 +6,7 @@ const helper = {
   "!transadinha": "SÓ UMA MANO, SÓ UMA TRANSADINHA",
   "bom dia": "Bom dia Pedrão",
   "boa tarde": "Boa tarde Pedrão",
-  "bom noite": "Boa noite Pedrão",
+  "boa noite": "Boa noite Pedrão",
   "!xandao": "Xandão é o ser mais energizado do mundo meeeooo",
   "!kim": "Famoso Kina betch",
   "!diogo": "Famoso diogo diogando",
