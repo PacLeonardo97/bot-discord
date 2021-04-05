@@ -14,6 +14,10 @@ const rand_imgs_guigui = [
   './src/assets/images/guigui/guigui3.jpg',
   './src/assets/images/guigui/guigui4.jpg',
   './src/assets/images/guigui/guigui5.jpg',
+  './src/assets/images/guigui/guigui6.jpg',
+  './src/assets/images/guigui/guigui7.jpg',
+  './src/assets/images/guigui/guigui8.jpg',
+  './src/assets/images/guigui/guigui9.jpg',
 ];
 
 client.on("message", msg => {
