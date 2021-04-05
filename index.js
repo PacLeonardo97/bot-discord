@@ -1,6 +1,6 @@
-import "dotenv/config";
-import discord from "discord.js";
-import strategy, { Helper } from "./src/helper/strategy";
+require("dotenv/config");
+const discord = require("discord.js");
+const { Helper, strategy } = require("./src/helper/strategy");
 
 const client = new discord.Client();
 

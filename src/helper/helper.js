@@ -7,4 +7,5 @@ const mostrarProps = (obj, nomeDoObj) => {
   }
   return resultado;
 };
-export { mostrarProps as default, mostrarProps };
+
+module.exports = mostrarProps;
